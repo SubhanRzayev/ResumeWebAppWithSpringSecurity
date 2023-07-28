@@ -1,0 +1,24 @@
+body{
+    background-color:#d0e4fe;
+}
+
+input.inpt{
+    padding-top: 5px;
+    margin-top: 4px;
+    margin-left: 19px;
+}
+input.btn{
+    margin-top: 50px;
+    margin-left: 120px;
+}
+
+div.container{
+    padding: 10px 0px;
+    margin: 10% auto;
+
+}
+
+div label {
+    margin-left: 5px;
+}
+

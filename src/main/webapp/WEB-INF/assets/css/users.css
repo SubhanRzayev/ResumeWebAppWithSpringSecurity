@@ -1,0 +1,30 @@
+body{
+    background-color:#d0e4fe;
+}
+
+.container{
+    width: 50%;
+    margin: 10% auto;
+    border: 0px;
+}
+.login_background{
+    background: url("https://wwww.hr.com/portals/hrcom/Page/images/Cover-photos/HRcom-HomeSplash.jpg");
+
+}
+
+.login_fix_{
+    background: #fffdfd40;
+    border: white;
+    padding-top: 172px;
+    font-style: italic;
+    color: aliceblue;
+    width: 500px;
+    height: 500px;
+
+}
+
+
+
+
+
+
