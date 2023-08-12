@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
-import javax.validation.Valid;
 import java.util.List;
 
 
@@ -51,7 +50,7 @@ public class UserController {
 
 
     @RequestMapping(method = RequestMethod.GET, value = "/usersm")
-    public ModelAndView indexM(@Valid
+    public ModelAndView indexM(
                                @ModelAttribute("user") UserForm u,
                                BindingResult bindingResult) {
         ModelAndView mv = new ModelAndView("users");
